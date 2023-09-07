@@ -32,15 +32,13 @@
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
-age = 
+# age = 19
+# name = "Thomas"
+# song = "Rush E"
+# food = "chips"
+# number = 93
 
-
-
-
-
-
-
-
+# print(f"Once upon a time, there was a {age} old coder named {name}. {name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing. Still, {name} was the best coser on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
 ##########################################################################################
 # The names you use when creating these labels need to follow a few rules:
 # 1. Names can not start with a number.
@@ -55,39 +53,42 @@ age =
 
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# 1st_name = name_1st
+# last name = lastname
+# email@address = emailaddress
+# percent% = percent
+# variable#name = variablename
+# O = zero
+# list = thelist
 # Creating Valid Names: Create valid names for the following descriptions:
 
-# The first name of a person
-# The last name of a person
-# The email address of a person
-# The percentage of marks obtained by a student
-# A variable to store the number of items in a shopping cart
+# The first name of a person : name = 'John'
+# The last name of a person : lastname = 'Lopez'
+# The email address of a person : email = 'johnlopez@gmail.com'
+# The percentage of marks obtained by a student : grade = 88
+# A variable to store the number of items in a shopping cart : cart = 5
 
 
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
-# first_name
-# lastName
-# email_address
-# percentage
-# variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# first_name : valid
+# lastName : valid
+# email_address : valid
+# percentage : valid
+# variable_name : valid
+# 1_variable : invalid
+# email@address : invalid
+# percentage% : invalid
+# i : valid
 
 
 
 
 # Declare two variables, called name and age.
 # Set the name variable value to "Tony Soprano" and the age value to 51.
+
+# name = 'Tony Soprano'
+# age = 51
 
 
 # Variables Practice #2
@@ -97,12 +98,21 @@ age =
 # full_name
 # Assign the value "Julia" to first_name, and for last_name, assign the value "Roberts". Finally, build the variable full_name by concatenating these two variables (remember to add a space in between)
 
+# first_name = "Julia "
+# last_name = "Roberts"
+# full_name = first_name + last_name
+
 
 # Variables Practice #3
 # Declare the variable course, assign it the value "Python", and print the following sentence:
 # You are taking a course course
 # To do this, you must concatenate the first and last parts of the sentence with the variable. Remember to add spaces before and after concatenating the variable to the rest of the text.
 
+# course = "Python "
+# sent = "You are taking a "
+# sent2 = "course."
+
+# print(f'{sent}{course}{sent2}')
 
 
 ################ # **Working with** **numbers** **bold text**#########
@@ -122,10 +132,47 @@ age =
 # Declare a numeric variable named int_num that contains a value of integer type of your choice.
 # Print the data type of that variable.
 
+# python allows for impicit or explicit conversion
+# int_num = 54.71
+# implicit means it's already inferred
+# int_num = float(54.71)
+# explicit means it's explicitly defined
+
+# birthday = input('When is your birthday?')
+# print(type(birthday)) implicit
+# print(int(birthday)) explicit
+
+
+# int_num = 5.7
+# print(type(int_num))
+# identifies the type of data type
+# name = "Tony"
+# print(type(name))
+# classInSession = True
+# print(type(classInSession))
+
+# floating point numbers
+# dollars = 50.25
+# price_of_book = 39.99
+# print(dollars)
+# print(dollars + price_of_book)
+# total = dollars + price_of_book
+# print(total)
+# print(type(total))
+
+# moneyformovie = float(input('How much money do you have? '))
+# moneyfordinner = float(input('How much money do you have for dinner? '))
+# totalcost = moneyformovie + moneyfordinner
+# print(f'You have: $' + str(totalcost) + ' for the movie and dinner.')
+
 
 # Floats Practice
 # Declare a numeric variable named decimal_num that contains a value of float type of your choice.
 # Print the data type of that variable.
+
+# decimal_num = 52.79
+# print(decimal_num)
+
 
 # ata Types Practice
 # What type is the result of the sum of 7.5 + 2.5? Write the code to verify it.
@@ -134,17 +181,38 @@ age =
 # num2 = 2.5
 # Next, print on the screen the data type that results from the sum of both numbers.
 
+# num1 = (7.5)
+# num2 = (2.5)
+# sum = num1 + num2
+# print(sum)
+
+
 #################################Data Type conversions####################
 # slides 12 -19
 # Data Type Conversions Practice #1
 # Convert the value of num1 to an integer and print the resulting data type.
 
+# num1 = 42
+# print(type(num1))
+# print(int(num1))
+rfhsdhdhrhfgh
+
 #   Data Type Conversions Practice #2
 # Convert the value of num2 to a float and print the resulting data type.
+
+# num2 = 65.1
+# print(type(num2))
+# print(float(num2))
+
 
 #   Data Type Conversions Practice #3
 # Add the values of num1 and num2.
 # Do not modify the value of variables already declared, but apply the necessary conversions within the print() function.
+
+# num3 = num1 + num2
+# print(type(num3))
+# print(float(num3))
+
 
 #################################formatting strings####################
 # slide 19 -22
